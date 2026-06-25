@@ -1,7 +1,12 @@
 export type Attraction = {
   slug: string;
   name: string;
-  category: "Natureza" | "Cultura" | "Aventura" | "Histórico";
+  category:
+    | "Natureza"
+    | "Cultura"
+    | "Aventura"
+    | "Histórico"
+    | "Turismo Religioso";
 
   short: string;
   description: string;
@@ -29,19 +34,19 @@ export type Attraction = {
 
 export const attractions: Attraction[] = [
   {
-    slug: "cachoeira-do-frade",
+    slug: "cachoeira-do-pinga",
 
-    name: "Cachoeira do Pinga ",
+    name: "Cachoeira do Pinga",
 
     category: "Natureza",
 
     short:
-      "Queda d’água cristalina cercada por mata verde, perfeita para um mergulho refrescante.",
+      "Um dos principais atrativos naturais de Poranga, com águas cristalinas, vegetação preservada e um cenário perfeito para banho e contemplação.",
 
     description:
-      "Escondida em um vale úmido da Serra das Matas, a Cachoeira do Frade despenca sobre rochas escuras formando piscinas naturais de água esmeralda. O trajeto passa por um corredor de vegetação exuberante, contrastando com a paisagem seca do entorno. É um dos cartões-postais naturais de Poranga e ponto obrigatório para quem busca contato com a natureza.",
+      "Localizada na comunidade de Jericó, zona rural de Poranga, a Cachoeira do Pinga é um dos cartões-postais do município e um dos destinos mais procurados por visitantes. Cercada por vegetação nativa, rios e formações rochosas, proporciona uma experiência única de contato com a natureza. Durante o período chuvoso, entre janeiro e junho, a queda d'água ganha ainda mais volume e beleza, tornando o local ideal para ecoturismo, fotografia e momentos de lazer. A região também possui importantes formações rochosas e sítios arqueológicos com pinturas rupestres, enriquecendo ainda mais a experiência de quem visita o local.",
 
-    image: "/images/cachoeira.png",
+    image: "/images/pinga.jpg",
 
     gallery: [
       "/images/cachoeira.png",
@@ -50,65 +55,71 @@ export const attractions: Attraction[] = [
     ],
 
     highlights: [
-      "Piscinas naturais",
-      "Mata preservada",
-      "Banho seguro",
-      "Área de piquenique",
+      "Águas cristalinas",
+      "Queda d'água natural",
+      "Ecoturismo",
+      "Vegetação preservada",
+      "Formações rochosas",
+      "Paisagens para fotografia",
     ],
 
-    bestTime: "Maio a agosto, após o período chuvoso",
+    bestTime: "Janeiro a junho (período chuvoso)",
 
     difficulty: "Leve",
 
-    distance: "15 km do centro",
+    distance: "Zona rural de Poranga",
 
     visitDuration: "2 a 4 horas",
 
-    location: "Serra das Matas",
+    location: "Comunidade de Jericó - Poranga, Ceará",
 
-    latitude: -4.75,
-
-    longitude: -40.92,
+    latitude: -4.744,
+    longitude: -40.921,
   },
 
   {
-    slug: "mirante-da-serra",
+    slug: "igrejinha-de-pedra",
 
     name: "Igrejinha de Pedra",
 
-    category: "Natureza",
+    category: "Turismo Religioso",
 
     short:
-      "Vista panorâmica de tirar o fôlego sobre o vale e as montanhas ao pôr do sol.",
+      "Um dos principais cartões-postais de Poranga, a Igrejinha de Pedra une fé, história, arquitetura rústica e uma vista privilegiada da cidade.",
 
     description:
-      "No alto da serra, o mirante revela um horizonte de montanhas azuladas que se sobrepõem até onde a vista alcança. Ao entardecer, o céu se incendeia em tons de laranja e rosa, transformando o lugar no melhor cenário para fotografias. Um espaço contemplativo que resume a grandeza da paisagem de Poranga.",
+      "Conhecida oficialmente como Igreja Mãe de Deus, a Igrejinha de Pedra está localizada no Alto da Mãe de Deus, o ponto mais elevado de Poranga. Construída com pedras irregulares e barro, destaca-se por sua arquitetura rústica, que se integra harmoniosamente à paisagem natural. Além de seu importante valor religioso e histórico, o local oferece um mirante natural com uma ampla vista panorâmica da cidade. Cercada por muito vento, tranquilidade e natureza, é um destino ideal para momentos de contemplação, oração, fotografia e turismo religioso. O acesso ao topo é realizado por uma trilha e faz da visita uma experiência única para moradores e visitantes.",
 
-    image: "/images/mirante.png",
+    image: "/images/igrejadepedra.jpg",
 
     gallery: [
-      "/images/mirante.png",
-      "/images/mirante-2.jpg",
-      "/images/mirante-3.jpg",
+      "/images/igrejadepedra.jpg",
+      "/images/igrejadepedra-2.jpg",
+      "/images/igrejadepedra-3.jpg",
     ],
 
-    highlights: ["Pôr do sol", "Vista 180°", "Acesso de carro", "Fotografia"],
+    highlights: [
+      "Arquitetura em pedra",
+      "Turismo religioso",
+      "Mirante natural",
+      "Vista panorâmica da cidade",
+      "Patrimônio histórico",
+      "Contemplação e fotografia",
+    ],
 
-    bestTime: "Fim de tarde, o ano todo",
+    bestTime: "Durante todo o ano",
 
-    difficulty: "Muito leve",
+    difficulty: "Leve",
 
-    distance: "8 km do centro",
+    distance: "Centro urbano de Poranga",
 
     visitDuration: "1 a 2 horas",
 
-    location: "Serra das Matas",
+    location: "Alto da Mãe de Deus - Poranga, Ceará",
 
-    latitude: -4.76,
-
-    longitude: -40.93,
+    latitude: -4.745,
+    longitude: -40.92,
   },
-
   {
     slug: "trilha-das-pedras",
 
@@ -122,7 +133,7 @@ export const attractions: Attraction[] = [
     description:
       "A Trilha das Pedras conduz o visitante por imponentes formações rochosas esculpidas pelo tempo, entremeadas pela caatinga resiliente. Ao amanhecer, a luz dourada cria um espetáculo de cores e sombras. É a escolha ideal para quem aprecia ecoturismo, observação de aves e o silêncio do sertão.",
 
-    image: "/images/trilha.png",
+    image: "/images/barra.jpeg",
 
     gallery: [
       "/images/trilha.png",
@@ -165,7 +176,7 @@ export const attractions: Attraction[] = [
     description:
       "Erguida no coração de Poranga, a Igreja Matriz representa um dos maiores patrimônios históricos e religiosos do município. Sua arquitetura marcante e a praça ao redor formam o principal cartão-postal urbano da cidade.",
 
-    image: "/images/igreja.png",
+    image: "/images/imagemigrejamatriz.webp",
 
     gallery: [
       "/images/igreja.png",
@@ -208,12 +219,12 @@ export const experiences: Experience[] = [
     title: "Natureza & Cachoeiras",
     description:
       "Banhos em águas cristalinas e trilhas por paisagens preservadas da Serra das Matas.",
-    image: "/images/cachoeira.png",
+    image: "/images/barra.jpeg",
     href: "/pontos-turisticos",
   },
 
   {
-    title: "Cultura Sertaneja",
+    title: "Cultura Poranguense",
     description:
       "Festas tradicionais, artesanato e a hospitalidade que definem a alma de Poranga.",
     image: "/images/cultura-festa.png",
@@ -224,7 +235,7 @@ export const experiences: Experience[] = [
     title: "História Viva",
     description:
       "Conheça as origens do município e os marcos que contam a trajetória do povo poranguense.",
-    image: "/images/igreja.png",
+    image: "/images/igrejadepedra.jpg",
     href: "/historia",
   },
 
@@ -232,7 +243,7 @@ export const experiences: Experience[] = [
     title: "Gastronomia Local",
     description:
       "Sabores regionais, culinária sertaneja e experiências gastronômicas autênticas.",
-    image: "/images/gastronomia.png",
+    image: "/images/comida.png",
     href: "/guia-local",
   },
 ];

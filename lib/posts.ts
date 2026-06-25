@@ -24,7 +24,7 @@ Localizada na Serra das Matas, a cidade reúne natureza exuberante, cultura sert
 
 Entre os destaques estão:
 
-• Cachoeira do Frade
+• Cachoeira do Pinga
 • Mirante da Serra das Matas
 • Igreja Matriz
 • Trilha das Pedras

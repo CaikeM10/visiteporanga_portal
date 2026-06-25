@@ -94,7 +94,7 @@ export function SiteHeader() {
                 transparent ? "text-white/75" : "text-muted-foreground",
               )}
             >
-              Portal Oficial de Turismo
+              A capital dos ventos.
             </span>
           </div>
         </Link>

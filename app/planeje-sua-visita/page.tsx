@@ -1,54 +1,54 @@
-import type { Metadata } from 'next'
-import { PageHero } from '@/components/page-hero'
-import { PlanForm } from '@/components/plan-form'
-import { Car, Bus, CloudSun, Backpack, CalendarDays } from 'lucide-react'
+import type { Metadata } from "next";
+import { PageHero } from "@/components/page-hero";
+import { PlanForm } from "@/components/plan-form";
+import { Car, Bus, CloudSun, Backpack, CalendarDays } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: 'Planeje sua Visita',
+  title: "Planeje sua Visita",
   description:
-    'Como chegar a Poranga, melhor época para visitar, o que levar e dicas práticas para planejar sua viagem ao sertão do Ceará.',
-}
+    "Como chegar a Poranga, melhor época para visitar, o que levar e dicas práticas para planejar sua viagem ao sertão do Ceará.",
+};
 
 const tips = [
   {
     icon: Car,
-    title: 'Como chegar de carro',
-    text: 'A partir de Fortaleza, são cerca de 380 km pela BR-020 e rodovias estaduais. O trajeto leva em média 6 horas, com boas paradas pelo caminho.',
+    title: "Como chegar de carro",
+    text: "A partir de Fortaleza, são cerca de 380 km pela BR-020 e rodovias estaduais. O trajeto leva em média 6 horas, com boas paradas pelo caminho.",
   },
   {
     icon: Bus,
-    title: 'Transporte rodoviário',
-    text: 'Há linhas de ônibus intermunicipais que conectam Poranga a Fortaleza e a cidades vizinhas como Crateús e Ipueiras.',
+    title: "Transporte rodoviário",
+    text: "Há linhas de ônibus intermunicipais que conectam Poranga a Fortaleza e a cidades vizinhas como Crateús e Ipueiras.",
   },
   {
     icon: CloudSun,
-    title: 'Melhor época',
-    text: 'De maio a agosto, após as chuvas, as cachoeiras estão cheias e a serra fica especialmente verde. O clima é ameno o ano todo.',
+    title: "Melhor época",
+    text: "De maio a agosto, após as chuvas, as cachoeiras estão cheias e a serra fica especialmente verde. O clima é ameno o ano todo.",
   },
   {
     icon: Backpack,
-    title: 'O que levar',
-    text: 'Calçado confortável para trilhas, protetor solar, roupa de banho, repelente e uma garrafa de água. Boa parte dos atrativos é ao ar livre.',
+    title: "O que levar",
+    text: "Calçado confortável para trilhas, protetor solar, roupa de banho, repelente e uma garrafa de água. Boa parte dos atrativos é ao ar livre.",
   },
-]
+];
 
 const itinerary = [
   {
-    day: 'Dia 1',
-    title: 'Cidade e cultura',
-    text: 'Conheça o centro histórico, a Igreja Matriz e a feira de artesanato. À tarde, prove a gastronomia local.',
+    day: "Dia 1",
+    title: "Cidade e cultura",
+    text: "Conheça o centro histórico, a Igreja Matriz e a feira de artesanato. À tarde, prove a gastronomia local.",
   },
   {
-    day: 'Dia 2',
-    title: 'Natureza e cachoeiras',
-    text: 'Reserve o dia para a Cachoeira do Frade e um banho refrescante. Leve lanche para um piquenique.',
+    day: "Dia 2",
+    title: "Natureza e cachoeiras",
+    text: "Reserve o dia para a Cachoeira do Pinga e um banho refrescante. Leve lanche para um piquenique.",
   },
   {
-    day: 'Dia 3',
-    title: 'Trilhas e mirante',
-    text: 'Encare a Trilha das Pedras pela manhã e termine o dia contemplando o pôr do sol no Mirante da Serra.',
+    day: "Dia 3",
+    title: "Trilhas e mirante",
+    text: "Encare a Trilha das Pedras pela manhã e termine o dia contemplando o pôr do sol na cachoeira da barra.",
   },
-]
+];
 
 export default function PlanejeSuaVisitaPage() {
   return (
@@ -57,7 +57,7 @@ export default function PlanejeSuaVisitaPage() {
         eyebrow="Mãos à obra"
         title="Planeje sua visita"
         description="Reúna as informações práticas, monte seu roteiro e venha viver Poranga sem preocupações."
-        image="/images/mirante.png"
+        image="/images/planejesuavisita.jpg"
       />
 
       <section className="bg-background">
@@ -72,7 +72,10 @@ export default function PlanejeSuaVisitaPage() {
                 className="rounded-xl border border-border bg-card p-6"
               >
                 <div className="flex size-12 items-center justify-center rounded-lg bg-primary/10">
-                  <tip.icon className="size-6 text-primary" aria-hidden="true" />
+                  <tip.icon
+                    className="size-6 text-primary"
+                    aria-hidden="true"
+                  />
                 </div>
                 <h3 className="mt-5 font-heading text-lg font-semibold text-foreground">
                   {tip.title}
@@ -121,5 +124,5 @@ export default function PlanejeSuaVisitaPage() {
         </div>
       </section>
     </main>
-  )
+  );
 }
