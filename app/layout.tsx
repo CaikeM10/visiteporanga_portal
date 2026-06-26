@@ -1,15 +1,23 @@
 import { Analytics } from "@vercel/analytics/next";
+import Script from "next/script";
 import type { Metadata } from "next";
 import { Geist, Geist_Mono, Fraunces } from "next/font/google";
+
 import "./globals.css";
+
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
 
-const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
+const geistSans = Geist({
+  variable: "--font-geist-sans",
+  subsets: ["latin"],
+});
+
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
+
 const fraunces = Fraunces({
   variable: "--font-fraunces",
   subsets: ["latin"],
@@ -18,12 +26,15 @@ const fraunces = Fraunces({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://visiteporanga.com.br"),
+
   title: {
     default: "Visite Poranga | Turismo, Cultura e História",
     template: "%s | Visite Poranga",
   },
+
   description:
     "Descubra os pontos turísticos, a história, a cultura, os eventos e as experiências únicas de Poranga, Ceará. Planeje sua visita e explore a Serra das Matas.",
+
   keywords: [
     "Poranga",
     "Poranga Ceará",
@@ -39,17 +50,21 @@ export const metadata: Metadata = {
     "Igreja Matriz Poranga",
     "Guia turístico Poranga",
   ],
+
   twitter: {
     card: "summary_large_image",
     title: "Visite Poranga",
     description:
       "Descubra a história, cultura e os atrativos turísticos de Poranga.",
   },
+
   robots: {
     index: true,
     follow: true,
   },
+
   category: "travel",
+
   openGraph: {
     title: "Visite Poranga | Portal Oficial de Turismo",
     description:
@@ -57,6 +72,7 @@ export const metadata: Metadata = {
     type: "website",
     locale: "pt_BR",
     siteName: "Visite Poranga",
+
     images: [
       {
         url: "/images/brasão.jpg",
@@ -66,7 +82,9 @@ export const metadata: Metadata = {
       },
     ],
   },
+
   generator: "v0.app",
+
   icons: {
     icon: [
       {
@@ -82,6 +100,7 @@ export const metadata: Metadata = {
         type: "image/svg+xml",
       },
     ],
+
     apple: "/apple-icon.png",
   },
 };
@@ -97,9 +116,34 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} ${fraunces.variable} bg-background`}
     >
       <body className="font-sans antialiased">
+        {/* Google Analytics */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-LW11L5LDWF"
+          strategy="afterInteractive"
+        />
+
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+
+            function gtag(){
+              dataLayer.push(arguments);
+            }
+
+            gtag('js', new Date());
+
+            gtag('config', 'G-LW11L5LDWF', {
+              page_path: window.location.pathname,
+            });
+          `}
+        </Script>
+
         <SiteHeader />
+
         {children}
+
         <SiteFooter />
+
         {process.env.NODE_ENV === "production" && <Analytics />}
       </body>
     </html>
