@@ -12,7 +12,7 @@ export function HomeHero() {
     <section className="relative isolate flex min-h-screen items-end overflow-hidden">
       {/* Imagem de fallback */}
       <img
-        src="/images/capavideoinicial.jpg"
+        src="/images/capavideoinicial.JPG"
         alt="Vista aérea de Poranga"
         className="absolute inset-0 -z-30 h-full w-full object-cover"
       />
