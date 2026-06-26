@@ -57,7 +57,7 @@ export default function PlanejeSuaVisitaPage() {
         eyebrow="Mãos à obra"
         title="Planeje sua visita"
         description="Reúna as informações práticas, monte seu roteiro e venha viver Poranga sem preocupações."
-        image="/images/planejesuavisita.jpg"
+        image="/images/planejesuavisita.JPG"
       />
 
       <section className="bg-background">
