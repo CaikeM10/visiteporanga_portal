@@ -26,7 +26,7 @@ export function HomeHero() {
         preload="auto"
         className="absolute inset-0 -z-20 h-full w-full object-cover"
       >
-        <source src="/videos/videoporangasite.mp4" type="video/mp4" />
+        <source src="/video/videoporangasite.mp4" type="video/mp4" />
       </video>
       {/* Overlay */}
       <div

@@ -51,13 +51,6 @@ export const metadata: Metadata = {
     "Guia turístico Poranga",
   ],
 
-  twitter: {
-    card: "summary_large_image",
-    title: "Visite Poranga",
-    description:
-      "Descubra a história, cultura e os atrativos turísticos de Poranga.",
-  },
-
   robots: {
     index: true,
     follow: true,
@@ -65,22 +58,40 @@ export const metadata: Metadata = {
 
   category: "travel",
 
+  alternates: {
+    canonical: "https://visiteporanga.com.br",
+  },
+
   openGraph: {
     title: "Visite Poranga | Portal Oficial de Turismo",
     description:
       "Descubra Poranga, no coração da Serra das Matas, no Ceará. Natureza, história e cultura sertaneja.",
-    type: "website",
-    locale: "pt_BR",
+
+    url: "https://visiteporanga.com.br",
+
     siteName: "Visite Poranga",
+
+    locale: "pt_BR",
+
+    type: "website",
 
     images: [
       {
-        url: "/images/brasão.jpg",
+        url: "/images/imagemcompartilhamentolinkk.png",
         width: 1200,
         height: 630,
-        alt: "Visite Poranga",
+        alt: "Visite Poranga | Portal Oficial de Turismo",
       },
     ],
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Visite Poranga | Portal Oficial de Turismo",
+    description:
+      "Descubra a natureza, cultura, história e os principais atrativos turísticos de Poranga.",
+
+    images: ["/images/imagemcompartilhamentolinkk.png"],
   },
 
   generator: "v0.app",
@@ -88,21 +99,23 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       {
-        url: "/icon-light-32x32.png",
-        media: "(prefers-color-scheme: light)",
+        url: "/favicon.ico",
       },
       {
-        url: "/icon-dark-32x32.png",
-        media: "(prefers-color-scheme: dark)",
+        url: "/favicon-96x96.png",
+        sizes: "96x96",
+        type: "image/png",
       },
       {
-        url: "/icon.svg",
+        url: "/favicon.svg",
         type: "image/svg+xml",
       },
     ],
 
-    apple: "/apple-icon.png",
+    apple: "/apple-touch-icon.png",
   },
+
+  manifest: "/site.webmanifest",
 };
 
 export default function RootLayout({
@@ -126,7 +139,7 @@ export default function RootLayout({
           {`
             window.dataLayer = window.dataLayer || [];
 
-            function gtag(){
+            function gtag() {
               dataLayer.push(arguments);
             }
 
