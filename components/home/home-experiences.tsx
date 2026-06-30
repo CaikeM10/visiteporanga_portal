@@ -20,9 +20,9 @@ export function HomeExperiences() {
             </h2>
 
             <p className="mt-4 max-w-2xl text-pretty leading-relaxed text-muted-foreground">
-              Explore paisagens naturais, cultura sertaneja, histórias
-              fascinantes e experiências autênticas que revelam a verdadeira
-              essência de Poranga.
+              Explore paisagens naturais, cultura local, histórias fascinantes e
+              experiências autênticas que revelam a verdadeira essência de
+              Poranga.
             </p>
           </div>
         </div>
