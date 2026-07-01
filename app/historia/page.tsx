@@ -112,12 +112,12 @@ export default function HistoriaPage() {
       <HistoryVideo
         title="Monumento dos Padroeiros"
         description="Conheça um dos principais símbolos da fé e da identidade religiosa de Poranga através deste registro audiovisual."
-        video="/video/padroeirosporanga.mp4"
+        video="/video/padroeirosporanga.MP4"
         poster="/images/padroeirosporanga.png"
       />
 
       <HistoryText
-        title="Jesus, Maria e José"
+        title="Jesus, Maria e José."
         paragraphs={[
           "Em 2 de fevereiro de 1954 foi criada oficialmente a Paróquia de Poranga. Desde sua fundação, a comunidade já possuía como padroeiros Jesus, Maria e José.",
 
