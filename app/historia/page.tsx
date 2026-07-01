@@ -3,7 +3,7 @@ import { PageHero } from "@/components/page-hero";
 
 import { HistoryVideo } from "@/components/history/history-video";
 import { HistoryText } from "@/components/history/history-text";
-import { HistoryGallery } from "@/components/history/history-gallery";
+//import { HistoryGallery } from "@/components/history/history-gallery";
 import { HistoryCuriosities } from "@/components/history/history-curiosities";
 
 export const metadata: Metadata = {
