@@ -32,7 +32,7 @@ export function SiteFooter() {
                 </h2>
 
                 <p className="mt-1 text-sm text-muted-foreground">
-                  Portal Oficial de Turismo
+                  A Capital dos Ventos do Ceará.
                 </p>
               </div>
             </Link>
@@ -46,9 +46,9 @@ export function SiteFooter() {
                 text-muted-foreground
               "
             >
-              O portal oficial de turismo de Poranga reúne natureza, história,
-              cultura, gastronomia e experiências para ajudar visitantes a
-              descobrirem um dos destinos mais autênticos do interior do Ceará.
+              O portal Poranga reúne natureza, história, cultura, gastronomia e
+              experiências para ajudar visitantes a descobrirem um dos destinos
+              mais autênticos do interior do Ceará.
             </p>
 
             <p className="mt-8 font-heading text-xl text-foreground">
@@ -254,7 +254,7 @@ export function SiteFooter() {
               reservados.
             </p>
 
-            <p>Portal Oficial de Turismo do Município de Poranga.</p>
+            <p>Portal do Município de Poranga.</p>
           </div>
 
           <div className="space-y-2 text-sm text-muted-foreground lg:text-right">
