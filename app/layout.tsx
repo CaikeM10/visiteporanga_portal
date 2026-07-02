@@ -25,7 +25,7 @@ const fraunces = Fraunces({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://visiteporanga.com.br"),
+  metadataBase: new URL("https://www.visiteporanga.com.br"),
 
   title: {
     default: "Visite Poranga | Turismo, Cultura e História",
