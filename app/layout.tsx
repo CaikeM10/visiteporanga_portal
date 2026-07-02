@@ -158,6 +158,41 @@ export default function RootLayout({
         <SiteFooter />
 
         {process.env.NODE_ENV === "production" && <Analytics />}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "TouristInformationCenter",
+
+              name: "Visite Poranga",
+
+              url: "https://www.visiteporanga.com.br",
+
+              logo: "https://www.visiteporanga.com.br/brasão.jpg",
+
+              image:
+                "https://www.visiteporanga.com.br/imagemcompartilhamentolinkk.png",
+
+              description:
+                "Portal oficial de turismo de Poranga. Descubra atrativos, cultura, história, eventos e experiências únicas no município.",
+
+              areaServed: {
+                "@type": "City",
+                name: "Poranga",
+              },
+
+              address: {
+                "@type": "PostalAddress",
+                addressLocality: "Poranga",
+                addressRegion: "CE",
+                addressCountry: "BR",
+              },
+
+              sameAs: ["https://www.instagram.com/prefeituradeporangaoficial"],
+            }),
+          }}
+        />
       </body>
     </html>
   );
