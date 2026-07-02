@@ -20,19 +20,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: `${baseUrl}/historia`,
       lastModified: new Date(),
       changeFrequency: "monthly",
-      priority: 0.8,
+      priority: 0.9,
     },
     {
       url: `${baseUrl}/cultura`,
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/eventos`,
-      lastModified: new Date(),
-      changeFrequency: "weekly",
-      priority: 0.9,
     },
     {
       url: `${baseUrl}/guia-local`,
@@ -44,6 +38,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: `${baseUrl}/planeje-sua-visita`,
       lastModified: new Date(),
       changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/eventos`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
       priority: 0.8,
     },
   ];
