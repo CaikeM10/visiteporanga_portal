@@ -18,14 +18,14 @@ interface SchedulerItem {
 
 const scheduler: SchedulerItem[] = [
   {
-    day: "29 de Junho",
+    day: "28 de Junho",
     title: "Abertura Oficial",
     description:
       "Cerimônia de abertura com apresentações culturais e show pirotécnico.",
     image: "/images/festeja/festejadia01.webp",
   },
   {
-    day: "30 de Junho",
+    day: "30 de Junho e 1 de Julho",
     title: "Noite de Esportes",
     description: "Competições esportivas com atletas locais e regionais.",
     image: "/images/festeja/festejadia02.webp",

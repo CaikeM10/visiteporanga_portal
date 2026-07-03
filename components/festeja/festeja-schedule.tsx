@@ -3,7 +3,7 @@ import { CalendarDays } from "lucide-react";
 
 const schedule = [
   {
-    day: "29 de Junho",
+    day: "28 de Junho",
     badge: "Domingo",
     title: "Poranga em Movimento",
     description:
@@ -12,8 +12,8 @@ const schedule = [
   },
 
   {
-    day: "30 de Junho",
-    badge: "Segunda-feira",
+    day: "30 de Junho e 1 de Julho",
+    badge: "Terça-feira e Quarta-feira",
     title: "Festival de Quadrilhas",
     description:
       "Primeiro dia do Festival de Quadrilhas Juninas com apresentações culturais ao lado da Igreja Matriz.",
@@ -22,7 +22,7 @@ const schedule = [
 
   {
     day: "02 de Julho",
-    badge: "Quarta-feira",
+    badge: "Quinta-feira",
     title: "Programação Cultural",
     description:
       "Atividades culturais, apresentações artísticas e ações comemorativas durante a semana do aniversário do município.",
@@ -31,7 +31,7 @@ const schedule = [
 
   {
     day: "03 de Julho",
-    badge: "Quinta-feira",
+    badge: "Sexta-feira",
     title: "Encontro de Bandas",
     description:
       "Bandas musicais da região se apresentam em um espetáculo aberto ao público celebrando a cultura musical.",
@@ -40,7 +40,7 @@ const schedule = [
 
   {
     day: "04 de Julho",
-    badge: "Sexta-feira",
+    badge: "Sábado",
     title: "Dia do Evangélico",
     description:
       "Noite especial de louvor, fé e adoração com o show nacional da cantora Bruna Karla.",
@@ -49,7 +49,7 @@ const schedule = [
 
   {
     day: "05 de Julho",
-    badge: "Sábado",
+    badge: "Domingo",
     title: "Grande Festa de Aniversário",
     description:
       "Encerramento do Festeja Poranga com grandes shows de Wesley Safadão, Zé Vaqueiro e Rogerinho.",
