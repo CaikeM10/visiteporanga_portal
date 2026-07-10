@@ -102,7 +102,7 @@ export const metadata: Metadata = {
         url: "/favicon-poranga.ico",
       },
       {
-        url: "/favicon-96x96.png",
+        url: "/favicon-96x96-poranga.png",
         sizes: "96x96",
         type: "image/png",
       },
@@ -112,7 +112,7 @@ export const metadata: Metadata = {
       },
     ],
 
-    apple: "/apple-touch-icon.png",
+    apple: "/apple-touch-icon-poranga.png",
   },
 
   manifest: "/site.webmanifest",
