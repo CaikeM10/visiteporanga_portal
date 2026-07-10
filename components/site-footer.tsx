@@ -14,7 +14,7 @@ export function SiteFooter() {
           <div className="lg:col-span-2">
             <Link href="/" className="group inline-flex items-center gap-4">
               <img
-                src="/brasão.jpg"
+                src="/brasao-poranga.jpg"
                 alt="Visite Poranga"
                 className="
                   h-16

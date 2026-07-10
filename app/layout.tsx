@@ -94,8 +94,6 @@ export const metadata: Metadata = {
     images: ["/images/imagemcompartilhamentolinkk.png"],
   },
 
-  generator: "v0.app",
-
   icons: {
     icon: [
       {
@@ -169,10 +167,10 @@ export default function RootLayout({
 
               url: "https://www.visiteporanga.com.br",
 
-              logo: "https://www.visiteporanga.com.br/brasão.jpg",
+              logo: "https://www.visiteporanga.com.br/brasao-poranga.jpg",
 
               image:
-                "https://www.visiteporanga.com.br/imagemcompartilhamentolinkk.png",
+                "https://www.visiteporanga.com.br/images/imagemcompartilhamentolinkk.png",
 
               description:
                 "Portal oficial de turismo de Poranga. Descubra atrativos, cultura, história, eventos e experiências únicas no município.",

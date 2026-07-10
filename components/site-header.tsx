@@ -51,7 +51,7 @@ export function SiteHeader() {
           )}
         >
           <Image
-            src="/brasão.jpg"
+            src="/brasao-poranga.jpg"
             alt="Visite Poranga"
             width={72}
             height={72}
