@@ -76,7 +76,46 @@ export const attractions: Attraction[] = [
     latitude: -4.744,
     longitude: -40.921,
   },
+  {
+    slug: "rio-saudoso",
 
+    name: "Rio Saudoso",
+
+    category: "Natureza",
+
+    short:
+      "Um dos principais pontos de lazer de Poranga, com águas correntes, paisagens naturais e um ambiente ideal para banho e encontros entre amigos e famílias.",
+
+    description:
+      "Localizado na saída de Poranga em direção ao estado do Piauí, o Rio Saudoso é um dos locais mais tradicionais para lazer no município. Durante o período chuvoso, suas águas formam um belo sangradouro, criando um cenário muito procurado por moradores e visitantes para banho, descanso e contemplação da natureza. Cercado por vegetação nativa, o espaço proporciona uma experiência agradável para quem deseja aproveitar momentos ao ar livre, sendo um dos destinos mais conhecidos da região.",
+
+    image: "/images/saudoso.jpg",
+
+    gallery: [
+      "/images/saudoso.jpg",
+      "/images/saudoso-2.jpg",
+      "/images/saudoso-3.jpg",
+    ],
+
+    highlights: [
+      "Banho de rio",
+      "Paisagem natural",
+      "Ideal para famílias",
+      "Águas correntes",
+      "Fotografia",
+      "Lazer ao ar livre",
+    ],
+
+    bestTime: "Janeiro a junho",
+
+    difficulty: "Muito leve",
+
+    distance: "Saída de Poranga em direção ao Piauí",
+
+    visitDuration: "2 a 4 horas",
+
+    location: "Rodovia entre Poranga (CE) e o estado do Piauí",
+  },
   {
     slug: "igrejinha-de-pedra",
 

@@ -99,7 +99,7 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       {
-        url: "/favicon.ico",
+        url: "/favicon-poranga.ico",
       },
       {
         url: "/favicon-96x96.png",
@@ -107,7 +107,7 @@ export const metadata: Metadata = {
         type: "image/png",
       },
       {
-        url: "/favicon.svg",
+        url: "/favicon-poranga.svg",
         type: "image/svg+xml",
       },
     ],
