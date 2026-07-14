@@ -169,7 +169,9 @@ export function WeatherCard() {
                     </p>
 
                     <p className="mt-4 text-sm text-white/70">
-                      Atualizado às {weather.updatedAt}
+                      Dados do clima atualizados às {weather.updatedAt}{" "}
+                      <br></br>
+                      Fonte: Open-Meteo
                     </p>
                   </div>
                 </div>

@@ -55,8 +55,8 @@ export function useWeather() {
   useEffect(() => {
     loadWeather();
 
-    // Atualiza automaticamente a cada 10 minutos
-    const interval = setInterval(loadWeather, 600000);
+    // Atualiza automaticamente a cada 5 minutos
+    const interval = setInterval(loadWeather, 300000);
 
     return () => clearInterval(interval);
   }, []);

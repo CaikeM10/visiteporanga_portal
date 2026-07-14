@@ -8,7 +8,7 @@ export async function GET() {
     `https://api.open-meteo.com/v1/forecast` +
     `?latitude=${latitude}` +
     `&longitude=${longitude}` +
-    `&current=` +
+    "&current=" +
     [
       "temperature_2m",
       "apparent_temperature",
@@ -29,7 +29,7 @@ export async function GET() {
 
   const response = await fetch(url, {
     next: {
-      revalidate: 600, // Atualiza a cada 10 minutos
+      revalidate: 300, // Atualiza a cada 5 minutos
     },
   });
 
@@ -45,6 +45,7 @@ export async function GET() {
   }
 
   const data = await response.json();
+  console.log(data);
 
   const forecast = data.daily.time.map((date: string, index: number) => ({
     date,
@@ -56,7 +57,7 @@ export async function GET() {
   }));
 
   return NextResponse.json({
-    updatedAt: new Date().toLocaleTimeString("pt-BR", {
+    updatedAt: new Date(data.current.time).toLocaleTimeString("pt-BR", {
       hour: "2-digit",
       minute: "2-digit",
     }),
@@ -64,8 +65,6 @@ export async function GET() {
     temperature: Math.round(data.current.temperature_2m),
 
     feelsLike: Math.round(data.current.apparent_temperature),
-
-    humidity: data.current.relative_humidity_2m,
 
     windspeed: Math.round(data.current.wind_speed_10m),
 
