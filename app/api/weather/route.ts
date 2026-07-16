@@ -66,6 +66,8 @@ export async function GET() {
 
     feelsLike: Math.round(data.current.apparent_temperature),
 
+    humidity: data.current.relative_humidity_2m,
+
     windspeed: Math.round(data.current.wind_speed_10m),
 
     winddirection: data.current.wind_direction_10m,
