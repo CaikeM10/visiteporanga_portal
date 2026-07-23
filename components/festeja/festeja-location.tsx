@@ -37,7 +37,7 @@ export function FestejaLocation() {
 
           <div className="relative overflow-hidden rounded-[30px] shadow-xl group">
             <img
-              src="/images/Imagemigrejamatriz.webp"
+              src="/images/Imagemigrejamatriz.avif"
               alt="Praça Pública de Poranga"
               className="
       h-full

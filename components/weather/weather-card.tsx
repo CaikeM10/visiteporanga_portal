@@ -178,7 +178,10 @@ export function WeatherCard() {
               </div>
 
               {/* Temperatura principal */}
-              <div className="flex items-center gap-6 rounded-3xl bg-white/10 p-6 backdrop-blur">
+              <div
+                className="flex items-center gap-6 rounded-3xl bg-whit
+              e/10 p-6 backdrop-blur"
+              >
                 <WeatherIcon code={weather.weathercode} />
 
                 <div>

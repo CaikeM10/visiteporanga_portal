@@ -215,7 +215,7 @@ export const attractions: Attraction[] = [
     description:
       "Erguida no coração de Poranga, a Igreja Matriz representa um dos maiores patrimônios históricos e religiosos do município. Sua arquitetura marcante e a praça ao redor formam o principal cartão-postal urbano da cidade.",
 
-    image: "/images/Imagemigrejamatriz.webp",
+    image: "/images/Imagemigrejamatriz.avif",
 
     gallery: [
       "/images/igreja.png",

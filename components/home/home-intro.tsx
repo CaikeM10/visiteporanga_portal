@@ -51,7 +51,7 @@ export function HomeIntro() {
           "
             >
               <img
-                src="/images/Imagemigrejamatriz.webp"
+                src="/images/Imagemigrejamatriz.avif"
                 alt="Praça da Matriz de Poranga"
                 className="
               aspect-[4/3]
