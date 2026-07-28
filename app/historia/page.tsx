@@ -42,7 +42,7 @@ export default function HistoriaPage() {
         eyebrow="Nossas raízes"
         title="A história de Poranga"
         description="Uma trajetória que nasce nas alturas da Serra e se entrelaça com a cultura e a fé do povo Poranguense."
-        image="/images/Imagemigrejamatriz.webp"
+        image="/images/Imagemigrejamatriz.avif"
       />
 
       {/* Introdução */}

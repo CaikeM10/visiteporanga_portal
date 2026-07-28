@@ -2,7 +2,7 @@ import Link from "next/link";
 import {
   MapPinned,
   UtensilsCrossed,
-  Hotel,
+  Landmark,
   CalendarDays,
   ArrowRight,
 } from "lucide-react";
@@ -17,18 +17,18 @@ const guides = [
     featured: true,
   },
   {
-    title: "Onde comer",
+    title: "Sabores de Poranga",
     description:
-      "Conheça restaurantes, lanchonetes e os sabores típicos da culinária poranguense.",
+      "Conheça os pratos típicos, ingredientes regionais e a riqueza da culinária tradicional poranguense.",
     href: "/guia-local",
     icon: UtensilsCrossed,
   },
   {
-    title: "Onde ficar",
+    title: "História e Cultura",
     description:
-      "Encontre pousadas e hospedagens para aproveitar sua viagem com conforto.",
-    href: "/planeje-sua-visita",
-    icon: Hotel,
+      "Conheça a história, o patrimônio cultural e as tradições que fazem parte da identidade de Poranga.",
+    href: "/cultura",
+    icon: Landmark,
   },
   {
     title: "Quando visitar",
@@ -59,7 +59,7 @@ export function HomeVisitorGuide() {
             "
           >
             <span className="text-xs font-medium uppercase tracking-[0.28em] text-primary">
-              Planeje sua viagem
+              Explore Poranga por diferentes perspectivas.
             </span>
           </div>
 
@@ -88,8 +88,9 @@ export function HomeVisitorGuide() {
               text-muted-foreground
             "
           >
-            Descubra rapidamente onde visitar, onde comer, onde se hospedar e
-            qual a melhor época para viver as melhores experiências da cidade.
+            Explore os atrativos, conheça a cultura local, descubra a
+            gastronomia típica e escolha o melhor período para visitar o
+            município.
           </p>
         </div>
 
