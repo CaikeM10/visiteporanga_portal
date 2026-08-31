@@ -44,7 +44,7 @@ export const attractions: Attraction[] = [
       "Um dos principais atrativos naturais de Poranga, com águas cristalinas, vegetação preservada e um cenário perfeito para banho e contemplação.",
 
     description:
-      "Localizada na comunidade de Jericó, zona rural de Poranga, a Cachoeira do Pinga é um dos cartões-postais do município e um dos destinos mais procurados por visitantes. Cercada por vegetação nativa, rios e formações rochosas, proporciona uma experiência única de contato com a natureza. Durante o período chuvoso, entre janeiro e junho, a queda d'água ganha ainda mais volume e beleza, tornando o local ideal para ecoturismo, fotografia e momentos de lazer. A região também possui importantes formações rochosas e sítios arqueológicos com pinturas rupestres, enriquecendo ainda mais a experiência de quem visita o local.",
+      "Localizada na comunidade de Jericó, na sede de Poranga, a Cachoeira do Pinga é um dos cartões-postais do município e um dos destinos mais procurados por visitantes. Cercada por vegetação nativa, rios e formações rochosas, proporciona uma experiência única de contato com a natureza. Durante o período chuvoso, entre janeiro e junho, a queda d'água ganha ainda mais volume e beleza, tornando o local ideal para ecoturismo, fotografia e momentos de lazer. A região também possui importantes formações rochosas e sítios arqueológicos com pinturas rupestres, enriquecendo ainda mais a experiência de quem visita o local.",
 
     image: "/images/pinga.jpg",
 
@@ -87,7 +87,7 @@ export const attractions: Attraction[] = [
       "Um dos principais pontos de lazer de Poranga, com águas correntes, paisagens naturais e um ambiente ideal para banho e encontros entre amigos e famílias.",
 
     description:
-      "Localizado na saída de Poranga em direção ao estado do Piauí, o Rio Saudoso é um dos locais mais tradicionais para lazer no município. Durante o período chuvoso, suas águas formam um belo sangradouro, criando um cenário muito procurado por moradores e visitantes para banho, descanso e contemplação da natureza. Cercado por vegetação nativa, o espaço proporciona uma experiência agradável para quem deseja aproveitar momentos ao ar livre, sendo um dos destinos mais conhecidos da região.",
+      "Localizado na saída de Poranga em direção ao estado do Piauí, na zona rural, o Rio Saudoso é um dos locais mais tradicionais para lazer no município. Durante o período chuvoso, suas águas formam um belo sangradouro, criando um cenário muito procurado por moradores e visitantes para banho, descanso e contemplação da natureza. Cercado por vegetação nativa, o espaço proporciona uma experiência agradável para quem deseja aproveitar momentos ao ar livre, sendo um dos destinos mais conhecidos da região.",
 
     image: "/images/saudoso.jpg",
 
