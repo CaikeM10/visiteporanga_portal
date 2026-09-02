@@ -8,7 +8,7 @@ export function HomeUpcomingEvents() {
     <section className="bg-background py-16 sm:py-20 lg:py-24">
       <div className="mx-auto max-w-7xl px-5">
         {/* CABEÇALHO */}
-        <div className="mb-10 flex flex-col gap-5 sm:mb-12 md:flex-row md:items-end md:justify-between">
+        <div className="mb-10 sm:mb-12">
           <div className="max-w-2xl">
             <p className="text-xs font-semibold uppercase tracking-[0.24em] text-primary">
               Agenda
@@ -23,25 +23,6 @@ export function HomeUpcomingEvents() {
               experiência de conhecer Poranga. Confira o que vem por aí.
             </p>
           </div>
-
-          <Link
-            href="/eventos"
-            className="
-              group
-              inline-flex
-              w-fit
-              items-center
-              gap-2
-              text-sm
-              font-semibold
-              text-primary
-              transition
-              hover:underline
-            "
-          >
-            Ver agenda completa
-            <ArrowRight className="size-4 transition-transform duration-300 group-hover:translate-x-1" />
-          </Link>
         </div>
 
         {/* EVENTO */}

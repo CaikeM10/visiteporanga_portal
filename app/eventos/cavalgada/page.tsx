@@ -126,40 +126,45 @@ export default function CavalgadaPage() {
                 </div>
               </div>
             </div>
-
             {/* CARTAZ PRINCIPAL */}
             <div
               className="
-                relative
-                mx-auto
-                w-full
-                max-w-[480px]
-                lg:mx-0
-                lg:ml-auto
-                lg:max-w-[350px]
-              "
+    relative
+    mx-auto
+    w-full
+    max-w-[480px]
+
+    lg:mx-0
+    lg:ml-auto
+    lg:w-[280px]
+    lg:max-w-[280px]
+
+    min-[1800px]:w-[350px]
+    min-[1800px]:max-w-[350px]
+  "
             >
               <div
                 className="
-                  relative
-                  aspect-[4/5]
-                  overflow-hidden
-                  rounded-[28px]
-                  border
-                  border-primary/10
-                  shadow-xl
-                "
+      relative
+      aspect-[4/5]
+      w-full
+      overflow-hidden
+      rounded-[28px]
+      border
+      border-primary/10
+      shadow-xl
+    "
               >
                 <Image
                   src="/calvagada/eventoalenobeat2.jpeg"
                   alt="Cartaz da 2ª Grande Cavalgada de Poranga"
                   fill
                   priority
-                  sizes="(min-width: 1024px) 350px, 90vw"
+                  sizes="(min-width: 1800px) 350px, (min-width: 1024px) 280px, 90vw"
                   className="object-cover"
                 />
               </div>
-            </div>
+            </div>{" "}
           </div>
         </div>
       </section>
@@ -213,7 +218,278 @@ export default function CavalgadaPage() {
           </div>
         </div>
       </section>
+      {/* ═══════════════════════════════════════
+    PROGRAMAÇÃO COMPLETA
+═══════════════════════════════════════ */}
+      <section className="bg-secondary/40 py-16 sm:py-20 lg:py-24">
+        <div className="mx-auto max-w-7xl px-5">
+          <div className="grid gap-12 lg:grid-cols-[1fr_0.75fr] lg:items-center lg:gap-16">
+            {/* CONTEÚDO */}
+            <div>
+              <p className="text-xs font-semibold uppercase tracking-[0.22em] text-primary">
+                05 de setembro
+              </p>
 
+              <h2 className="mt-4 font-heading text-3xl font-semibold text-foreground sm:text-4xl">
+                Programação Completa
+              </h2>
+
+              <p className="mt-5 max-w-2xl text-base leading-7 text-muted-foreground">
+                Confira os horários e programe-se para acompanhar todas as
+                atividades da 2ª Grande Cavalgada de Poranga.
+              </p>
+
+              {/* PROGRAMAÇÃO */}
+              <div className="mt-10 space-y-3">
+                {/* 08H */}
+                <div
+                  className="
+              flex
+              items-center
+              gap-5
+              rounded-2xl
+              border
+              border-primary/10
+              bg-background
+              px-5
+              py-4
+            "
+                >
+                  <div className="w-[58px] shrink-0">
+                    <span className="font-heading text-xl font-semibold text-primary">
+                      08h
+                    </span>
+                  </div>
+
+                  <div>
+                    <p className="font-semibold text-foreground">
+                      Café da manhã
+                    </p>
+
+                    <p className="mt-1 text-sm text-muted-foreground">
+                      Recepção dos participantes.
+                    </p>
+                  </div>
+                </div>
+
+                {/* 09H */}
+                <div
+                  className="
+              flex
+              items-center
+              gap-5
+              rounded-2xl
+              border
+              border-primary/10
+              bg-background
+              px-5
+              py-4
+            "
+                >
+                  <div className="w-[58px] shrink-0">
+                    <span className="font-heading text-xl font-semibold text-primary">
+                      09h
+                    </span>
+                  </div>
+
+                  <div>
+                    <p className="font-semibold text-foreground">
+                      Missa dos Vaqueiros
+                    </p>
+
+                    <p className="mt-1 text-sm text-muted-foreground">
+                      Momento religioso da programação.
+                    </p>
+                  </div>
+                </div>
+
+                {/* 10H */}
+                <div
+                  className="
+              flex
+              items-center
+              gap-5
+              rounded-2xl
+              border
+              border-primary/10
+              bg-background
+              px-5
+              py-4
+            "
+                >
+                  <div className="w-[58px] shrink-0">
+                    <span className="font-heading text-xl font-semibold text-primary">
+                      10h
+                    </span>
+                  </div>
+
+                  <div>
+                    <p className="font-semibold text-foreground">
+                      Desfile dos cavalos
+                    </p>
+
+                    <p className="mt-1 text-sm text-muted-foreground">
+                      Percurso pelas ruas da cidade.
+                    </p>
+                  </div>
+                </div>
+
+                {/* 12H */}
+                <div
+                  className="
+              flex
+              items-center
+              gap-5
+              rounded-2xl
+              border
+              border-primary/10
+              bg-background
+              px-5
+              py-4
+            "
+                >
+                  <div className="w-[58px] shrink-0">
+                    <span className="font-heading text-xl font-semibold text-primary">
+                      12h
+                    </span>
+                  </div>
+
+                  <div>
+                    <p className="font-semibold text-foreground">
+                      Almoço para os vaqueiros
+                    </p>
+                  </div>
+                </div>
+
+                {/* 14H */}
+                <div
+                  className="
+              flex
+              items-center
+              gap-5
+              rounded-2xl
+              border
+              border-primary/10
+              bg-background
+              px-5
+              py-4
+            "
+                >
+                  <div className="w-[58px] shrink-0">
+                    <span className="font-heading text-xl font-semibold text-primary">
+                      14h
+                    </span>
+                  </div>
+
+                  <div>
+                    <p className="font-semibold text-foreground">
+                      Show de Allê no Beat
+                    </p>
+
+                    <p className="mt-1 text-sm text-muted-foreground">
+                      Forró Cachorro
+                    </p>
+                  </div>
+                </div>
+
+                {/* 16H */}
+                <div
+                  className="
+              flex
+              items-center
+              gap-5
+              rounded-2xl
+              border
+              border-primary/10
+              bg-background
+              px-5
+              py-4
+            "
+                >
+                  <div className="w-[58px] shrink-0">
+                    <span className="font-heading text-xl font-semibold text-primary">
+                      16h
+                    </span>
+                  </div>
+
+                  <div>
+                    <p className="font-semibold text-foreground">
+                      Emerson Cantor
+                    </p>
+
+                    <p className="mt-1 text-sm text-muted-foreground">
+                      &amp; Forró Diferente
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              {/* SORTEIO */}
+              <div
+                className="
+            mt-7
+            rounded-2xl
+            border
+            border-primary/20
+            bg-primary/5
+            p-5
+          "
+              >
+                <p className="text-xs font-semibold uppercase tracking-[0.18em] text-primary">
+                  Sorteio
+                </p>
+
+                <p className="mt-2 font-heading text-xl font-semibold text-foreground">
+                  Moto Avelloz 125 zero km
+                </p>
+
+                <p className="mt-2 text-sm leading-6 text-muted-foreground">
+                  Sorteio destinado aos participantes do evento, conforme as
+                  regras estabelecidas pela organização.
+                </p>
+              </div>
+            </div>
+            {/* CARTAZ DA PROGRAMAÇÃO */}
+            <div
+              className="
+    relative
+    mx-auto
+    w-full
+    max-w-[430px]
+
+    lg:mx-0
+    lg:ml-auto
+    lg:w-[265px]
+    lg:max-w-[265px]
+
+    min-[1800px]:w-[330px]
+    min-[1800px]:max-w-[330px]
+  "
+            >
+              <div
+                className="
+      relative
+      aspect-[4/5]
+      w-full
+      overflow-hidden
+      rounded-[28px]
+      border
+      border-primary/10
+      shadow-lg
+    "
+              >
+                <Image
+                  src="/calvagada/programação_alenobeat.jpeg"
+                  alt="Programação da 2ª Grande Cavalgada de Poranga"
+                  fill
+                  sizes="(min-width: 1800px) 330px, (min-width: 1024px) 265px, 90vw"
+                  className="object-cover"
+                />
+              </div>
+            </div>{" "}
+          </div>
+        </div>
+      </section>
       {/* ═══════════════════════════════════════
           PARTICIPAÇÃO
       ═══════════════════════════════════════ */}
@@ -293,39 +569,44 @@ export default function CavalgadaPage() {
                 </div>
               </div>
             </div>
-
             {/* CARTAZ DE INFORMAÇÕES */}
             <div
               className="
-                relative
-                mx-auto
-                w-full
-                max-w-[430px]
-                lg:mx-0
-                lg:ml-auto
-                lg:max-w-[320px]
-              "
+    relative
+    mx-auto
+    w-full
+    max-w-[430px]
+
+    lg:mx-0
+    lg:ml-auto
+    lg:w-[255px]
+    lg:max-w-[255px]
+
+    min-[1800px]:w-[320px]
+    min-[1800px]:max-w-[320px]
+  "
             >
               <div
                 className="
-                  relative
-                  aspect-[4/5]
-                  overflow-hidden
-                  rounded-[28px]
-                  border
-                  border-primary/10
-                  shadow-lg
-                "
+      relative
+      aspect-[4/5]
+      w-full
+      overflow-hidden
+      rounded-[28px]
+      border
+      border-primary/10
+      shadow-lg
+    "
               >
                 <Image
                   src="/calvagada/eventoalenobeat.jpeg"
                   alt="Informações de inscrição da 2ª Grande Cavalgada de Poranga"
                   fill
-                  sizes="(min-width: 1024px) 320px, 90vw"
+                  sizes="(min-width: 1800px) 320px, (min-width: 1024px) 255px, 90vw"
                   className="object-cover"
                 />
               </div>
-            </div>
+            </div>{" "}
           </div>
         </div>
       </section>
