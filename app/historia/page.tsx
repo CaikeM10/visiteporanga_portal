@@ -112,7 +112,7 @@ export default function HistoriaPage() {
       <HistoryVideo
         title="Monumento dos Padroeiros"
         description="Conheça um dos principais símbolos da fé e da identidade religiosa de Poranga através deste registro audiovisual."
-        video="/video/padroeirosporanga.MP4"
+        video="https://pub-8ad01c348f5645588f467c6569f32481.r2.dev/videos/padroeirosporangaa.MP4"
         poster="/images/padroeirosporanga.png"
       />
 

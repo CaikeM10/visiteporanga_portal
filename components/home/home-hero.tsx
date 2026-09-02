@@ -21,7 +21,10 @@ export function HomeHero() {
         preload="auto"
         className="absolute inset-0 -z-20 h-full w-full object-cover"
       >
-        <source src="/video/videoporangasite.mp4" type="video/mp4" />
+        <source
+          src="https://pub-8ad01c348f5645588f467c6569f32481.r2.dev/videos/videoporangasite.mp4"
+          type="video/mp4"
+        />
       </video>
 
       {/* OVERLAY */}

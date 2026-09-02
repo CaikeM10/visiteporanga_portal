@@ -15,7 +15,7 @@ export default function SaboresPorangaPage() {
         eyebrow="Cultura e Gastronomia"
         title="Sabores de Poranga"
         description="A gastronomia de Poranga preserva tradições, valoriza os ingredientes da região e faz parte da identidade cultural do município. Descubra como os sabores locais ajudam a contar a história e os costumes da população poranguense."
-        image="/images/comida.png"
+        image="/images/comida.webp"
       />
 
       {/* Introdução */}
@@ -96,9 +96,9 @@ export default function SaboresPorangaPage() {
 
             <p className="mt-6 text-lg leading-8 text-muted-foreground">
               A gastronomia local é resultado da combinação entre ingredientes
-              produzidos na região, costumes familiares e tradições que atravessam
-              gerações. Cada receita preserva parte da identidade cultural do
-              município.
+              produzidos na região, costumes familiares e tradições que
+              atravessam gerações. Cada receita preserva parte da identidade
+              cultural do município.
             </p>
           </div>
 
@@ -113,9 +113,9 @@ export default function SaboresPorangaPage() {
               </h3>
 
               <p className="mt-4 leading-8 text-muted-foreground">
-                Receitas preparadas há muitos anos continuam presentes no cotidiano
-                das famílias, preservando modos de preparo e sabores que fazem parte
-                da memória cultural da comunidade.
+                Receitas preparadas há muitos anos continuam presentes no
+                cotidiano das famílias, preservando modos de preparo e sabores
+                que fazem parte da memória cultural da comunidade.
               </p>
             </article>
 
@@ -129,9 +129,9 @@ export default function SaboresPorangaPage() {
               </h3>
 
               <p className="mt-4 leading-8 text-muted-foreground">
-                Milho, mandioca, feijão, frutas da estação e outros produtos cultivados
-                localmente fazem parte da alimentação tradicional e valorizam a
-                produção regional.
+                Milho, mandioca, feijão, frutas da estação e outros produtos
+                cultivados localmente fazem parte da alimentação tradicional e
+                valorizam a produção regional.
               </p>
             </article>
 
@@ -169,16 +169,17 @@ export default function SaboresPorangaPage() {
               </h2>
 
               <p className="mt-6 text-lg leading-8 text-muted-foreground">
-                A culinária regional é construída a partir dos ingredientes cultivados
-                e produzidos na própria região. O trabalho das famílias agricultoras,
-                aliado aos conhecimentos tradicionais, mantém viva uma alimentação
-                simples, nutritiva e cheia de identidade.
+                A culinária regional é construída a partir dos ingredientes
+                cultivados e produzidos na própria região. O trabalho das
+                famílias agricultoras, aliado aos conhecimentos tradicionais,
+                mantém viva uma alimentação simples, nutritiva e cheia de
+                identidade.
               </p>
 
               <p className="mt-5 text-lg leading-8 text-muted-foreground">
-                Ao longo das estações, diferentes produtos fazem parte da mesa dos
-                moradores e também das celebrações culturais, refletindo a relação da
-                comunidade com a terra e com a natureza.
+                Ao longo das estações, diferentes produtos fazem parte da mesa
+                dos moradores e também das celebrações culturais, refletindo a
+                relação da comunidade com a terra e com a natureza.
               </p>
             </div>
 
@@ -186,9 +187,7 @@ export default function SaboresPorangaPage() {
               <div className="rounded-2xl border border-border bg-card p-6">
                 <p className="text-3xl">🌽</p>
 
-                <h3 className="mt-4 font-semibold text-foreground">
-                  Milho
-                </h3>
+                <h3 className="mt-4 font-semibold text-foreground">Milho</h3>
 
                 <p className="mt-2 text-sm leading-7 text-muted-foreground">
                   Presente em diversas receitas tradicionais e festividades
@@ -199,9 +198,7 @@ export default function SaboresPorangaPage() {
               <div className="rounded-2xl border border-border bg-card p-6">
                 <p className="text-3xl">🌿</p>
 
-                <h3 className="mt-4 font-semibold text-foreground">
-                  Mandioca
-                </h3>
+                <h3 className="mt-4 font-semibold text-foreground">Mandioca</h3>
 
                 <p className="mt-2 text-sm leading-7 text-muted-foreground">
                   Base para diversos preparos típicos e importante elemento da
@@ -217,8 +214,8 @@ export default function SaboresPorangaPage() {
                 </h3>
 
                 <p className="mt-2 text-sm leading-7 text-muted-foreground">
-                  Produções tradicionais valorizam os saberes locais e fortalecem a
-                  cultura alimentar do município.
+                  Produções tradicionais valorizam os saberes locais e
+                  fortalecem a cultura alimentar do município.
                 </p>
               </div>
 
@@ -230,8 +227,8 @@ export default function SaboresPorangaPage() {
                 </h3>
 
                 <p className="mt-2 text-sm leading-7 text-muted-foreground">
-                  Importante para a economia local e para a preservação das tradições
-                  agrícolas da região.
+                  Importante para a economia local e para a preservação das
+                  tradições agrícolas da região.
                 </p>
               </div>
             </div>
@@ -251,9 +248,9 @@ export default function SaboresPorangaPage() {
 
           <div className="mt-12 rounded-3xl border border-white/15 bg-white/10 p-8 backdrop-blur-sm">
             <p className="text-lg leading-8">
-              Mais do que receitas, os sabores de Poranga representam hospitalidade,
-              convivência e respeito às tradições que fazem parte da identidade do
-              município.
+              Mais do que receitas, os sabores de Poranga representam
+              hospitalidade, convivência e respeito às tradições que fazem parte
+              da identidade do município.
             </p>
           </div>
         </div>

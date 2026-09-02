@@ -282,7 +282,7 @@ export const experiences: Experience[] = [
     title: "Gastronomia Local",
     description:
       "Sabores regionais, culinária sertaneja e experiências gastronômicas autênticas.",
-    image: "/images/comida.png",
+    image: "/images/comida.webp",
     href: "/guia-local",
   },
 ];
