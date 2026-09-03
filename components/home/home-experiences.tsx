@@ -1,12 +1,15 @@
+import Image from "next/image";
 import Link from "next/link";
+
 import { ArrowUpRight } from "lucide-react";
+
 import { experiences } from "@/lib/data";
 
 export function HomeExperiences() {
   return (
     <section className="bg-secondary">
       <div className="mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8 lg:py-28">
-        {/* Cabeçalho */}
+        {/* CABEÇALHO */}
         <div className="flex flex-col gap-6">
           <div className="inline-flex w-fit items-center rounded-full border border-primary/20 bg-primary/5 px-4 py-2 backdrop-blur-sm">
             <span className="font-mono text-xs uppercase tracking-[0.25em] text-primary">
@@ -27,8 +30,16 @@ export function HomeExperiences() {
           </div>
         </div>
 
-        {/* Cards */}
-        <div className="mt-12 grid gap-6 md:grid-cols-3">
+        {/* CARDS */}
+        <div
+          className="
+            mt-12
+            grid
+            gap-6
+            sm:grid-cols-2
+            xl:grid-cols-4
+          "
+        >
           {experiences.map((exp) => (
             <Link
               key={exp.title}
@@ -53,15 +64,18 @@ export function HomeExperiences() {
                 hover:shadow-black/20
               "
             >
-              {/* Imagem */}
-              <img
+              {/* IMAGEM */}
+              <Image
                 src={exp.image || "/placeholder.svg"}
                 alt={exp.title}
+                fill
+                sizes="
+                  (min-width: 1280px) 25vw,
+                  (min-width: 640px) 50vw,
+                  100vw
+                "
                 className="
-                  absolute
-                  inset-0
                   -z-10
-                  size-full
                   object-cover
                   transition-all
                   duration-700
@@ -70,7 +84,7 @@ export function HomeExperiences() {
                 "
               />
 
-              {/* Overlay */}
+              {/* OVERLAY */}
               <div
                 className="
                   absolute
@@ -87,11 +101,20 @@ export function HomeExperiences() {
                 aria-hidden="true"
               />
 
-              {/* Conteúdo */}
+              {/* CONTEÚDO */}
               <div>
                 <h3 className="flex items-center gap-2 font-heading text-2xl font-semibold text-background">
                   {exp.title}
-                  <ArrowUpRight className="size-5 transition-transform duration-300 group-hover:translate-x-1 group-hover:-translate-y-1" />
+
+                  <ArrowUpRight
+                    className="
+                      size-5
+                      transition-transform
+                      duration-300
+                      group-hover:translate-x-1
+                      group-hover:-translate-y-1
+                    "
+                  />
                 </h3>
 
                 <p className="mt-3 text-pretty text-sm leading-relaxed text-background/85">
@@ -100,7 +123,15 @@ export function HomeExperiences() {
 
                 <div className="mt-5 flex items-center gap-2 text-sm font-medium text-background/90">
                   Explorar experiência
-                  <ArrowUpRight className="size-4 transition-transform duration-300 group-hover:translate-x-1 group-hover:-translate-y-1" />
+                  <ArrowUpRight
+                    className="
+                      size-4
+                      transition-transform
+                      duration-300
+                      group-hover:translate-x-1
+                      group-hover:-translate-y-1
+                    "
+                  />
                 </div>
               </div>
             </Link>

@@ -129,12 +129,12 @@ export const attractions: Attraction[] = [
     description:
       "Conhecida oficialmente como Igreja Mãe de Deus, a Igrejinha de Pedra está localizada no Alto da Mãe de Deus, o ponto mais elevado de Poranga. Construída com pedras irregulares e barro, destaca-se por sua arquitetura rústica, que se integra harmoniosamente à paisagem natural. Além de seu importante valor religioso e histórico, o local oferece um mirante natural com uma ampla vista panorâmica da cidade. Cercada por muito vento, tranquilidade e natureza, é um destino ideal para momentos de contemplação, oração, fotografia e turismo religioso. O acesso ao topo é realizado por uma trilha e faz da visita uma experiência única para moradores e visitantes.",
 
-    image: "/images/igrejadepedra.jpg",
+    image: "/images/igrejadepedra.webp",
 
     gallery: [
-      "/images/igrejadepedra.jpg",
-      "/images/igrejadepedra-2.jpg",
-      "/images/igrejadepedra-3.jpg",
+      "/images/igrejadepedra.webp",
+      "/images/igrejadepedra-2.webp",
+      "/images/igrejadepedra-3.webp",
     ],
 
     highlights: [
@@ -274,10 +274,16 @@ export const experiences: Experience[] = [
     title: "História Viva",
     description:
       "Conheça as origens do município e os marcos que contam a trajetória do povo poranguense.",
-    image: "/images/igrejadepedra.jpg",
+    image: "/images/igrejadepedra.webp",
     href: "/historia",
   },
-
+  {
+    title: "Oca da Memória",
+    description:
+      "Conheça o museu comunitário que preserva a memória e a cultura dos povos Tabajara e Kalabaça.",
+    image: "/indigenas/oca-da-memoria/oca-da-memoria-fachada.webp",
+    href: "/cultura/povos-indigenas/oca-da-memoria",
+  },
   {
     title: "Gastronomia Local",
     description:

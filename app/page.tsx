@@ -6,6 +6,8 @@ import { HomeVisitorGuide } from "@/components/home/home-visitor-guide";
 import { NovidadesSection } from "@/components/novidades/novidades-section";
 import { HomeEvents } from "@/components/home/home-events";
 import { HomeHighlights } from "@/components/home/home-highlights";
+
+import { HomeIndigenousExperience } from "@/components/home/home-indigenous-experience";
 import { HomeUpcomingEvents } from "@/components/home/home-upcoming-events";
 import { HomeMap } from "@/components/home/home-map";
 import { MunicipalLeadership } from "@/components/MunicipalLeadership";
@@ -21,6 +23,7 @@ export default function Page() {
       <HomeIntro />
 
       <HomeExperiences />
+      <HomeIndigenousExperience />
 
       <HomeVisitorGuide />
 
