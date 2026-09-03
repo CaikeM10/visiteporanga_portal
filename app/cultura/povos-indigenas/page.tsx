@@ -36,7 +36,7 @@ const indigenousGallery = [
     title: "Comunidades e território",
     description:
       "A presença indígena permanece viva no território, nas comunidades e nas manifestações culturais de Poranga.",
-    image: "/indigenas/imgHome.png",
+    image: "/indigenas/imghome.png",
     alt: "Manifestação cultural dos povos indígenas de Poranga",
     href: "#comunidades",
   },
