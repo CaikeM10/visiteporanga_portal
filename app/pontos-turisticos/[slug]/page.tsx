@@ -142,7 +142,7 @@ export default async function AttractionPage({ params }: Props) {
               </div>
 
               <a
-                href={`https://www.google.com/maps/search/${encodeURIComponent(
+                href={attraction.mapsUrl || `https://www.google.com/maps/search/${encodeURIComponent(
                   attraction.name + " Poranga Ceará",
                 )}`}
                 target="_blank"

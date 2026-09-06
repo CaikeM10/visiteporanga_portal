@@ -12,6 +12,7 @@ import {
 } from "lucide-react";
 
 import { OcaMemoryCarousel } from "@/components/indigenous/oca-memory-carousel";
+import { attractions } from "@/lib/data";
 
 export const metadata: Metadata = {
   title: "Oca da Memória | Visite Poranga",
@@ -20,6 +21,10 @@ export const metadata: Metadata = {
 };
 
 export default function OcaDaMemoriaPage() {
+  const mapsUrl = attractions.find(
+    (attraction) => attraction.slug === "oca-da-memoria",
+  )?.mapsUrl;
+
   return (
     <main>
       {/* ==================================================
@@ -142,7 +147,7 @@ export default function OcaDaMemoriaPage() {
               {/* MAPS */}
               <div className="mt-8">
                 <a
-                  href="https://maps.app.goo.gl/ZyTxkCFwGCP4NfWE8"
+                  href={mapsUrl}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="
@@ -338,7 +343,7 @@ export default function OcaDaMemoriaPage() {
 
             <div className="mt-7">
               <a
-                href="https://maps.app.goo.gl/ZyTxkCFwGCP4NfWE8"
+                href={mapsUrl}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="

@@ -1,6 +1,8 @@
 export type Attraction = {
   slug: string;
+
   name: string;
+
   category:
     | "Natureza"
     | "Cultura"
@@ -9,6 +11,7 @@ export type Attraction = {
     | "Turismo Religioso";
 
   short: string;
+
   description: string;
 
   image: string;
@@ -30,6 +33,10 @@ export type Attraction = {
   latitude?: number;
 
   longitude?: number;
+
+  href?: string;
+
+  mapsUrl?: string;
 };
 
 export const attractions: Attraction[] = [
@@ -74,8 +81,10 @@ export const attractions: Attraction[] = [
     location: "Comunidade de Jericó - Poranga, Ceará",
 
     latitude: -4.744,
+
     longitude: -40.921,
   },
+
   {
     slug: "rio-saudoso",
 
@@ -116,6 +125,7 @@ export const attractions: Attraction[] = [
 
     location: "Rodovia entre Poranga (CE) e o estado do Piauí",
   },
+
   {
     slug: "igrejinha-de-pedra",
 
@@ -157,8 +167,10 @@ export const attractions: Attraction[] = [
     location: "Alto da Mãe de Deus - Poranga, Ceará",
 
     latitude: -4.745,
+
     longitude: -40.92,
   },
+
   {
     slug: "trilha-das-pedras",
 
@@ -244,51 +256,116 @@ export const attractions: Attraction[] = [
 
     longitude: -40.92,
   },
+
+  {
+    slug: "oca-da-memoria",
+
+    name: "Oca da Memória",
+
+    category: "Cultura",
+
+    short:
+      "Museu comunitário dedicado à preservação da memória e da cultura dos povos Tabajara e Kalabaça de Poranga.",
+
+    description:
+      "A Oca da Memória é um espaço comunitário dedicado à preservação e valorização da memória, da história, da identidade e dos saberes dos povos Tabajara e Kalabaça de Poranga.",
+
+    image: "/indigenas/oca-da-memoria/oca-da-memoria-fachada.webp",
+
+    gallery: [
+      "/indigenas/oca-da-memoria/oca-da-memoria-fachada.webp",
+      "/indigenas/oca-da-memoria/oca-da-memoria-acervo-e-utensilios.webp",
+      "/indigenas/oca-da-memoria/oca-da-memoria-acervo-geral.webp",
+      "/indigenas/oca-da-memoria/oca-da-memoria-artesanato-em-palha.webp",
+    ],
+
+    highlights: [
+      "Museu comunitário indígena",
+      "Memória e identidade",
+      "Povos Tabajara e Kalabaça",
+      "Acervo histórico e cultural",
+      "Saberes tradicionais",
+    ],
+
+    bestTime: "Durante todo o ano",
+
+    difficulty: "Muito leve",
+
+    distance: "Poranga",
+
+    visitDuration: "1 a 2 horas",
+
+    location: "Poranga, Ceará",
+
+    href: "/cultura/povos-indigenas/oca-da-memoria",
+
+    mapsUrl: "https://maps.app.goo.gl/nQaeASjCdJFovZND7",
+  },
 ];
 
 export type Experience = {
   title: string;
+
   description: string;
+
   image: string;
+
   href: string;
 };
 
 export const experiences: Experience[] = [
   {
     title: "Natureza & Cachoeiras",
+
     description:
       "Banhos em águas cristalinas e trilhas por paisagens preservadas da Serra das Matas.",
+
     image: "/images/barra.jpeg",
+
     href: "/pontos-turisticos",
   },
 
   {
     title: "Cultura Poranguense",
+
     description:
       "Festas tradicionais, artesanato e a hospitalidade que definem a alma de Poranga.",
+
     image: "/images/cultura-festa.png",
+
     href: "/cultura",
   },
 
   {
     title: "História Viva",
+
     description:
       "Conheça as origens do município e os marcos que contam a trajetória do povo poranguense.",
+
     image: "/images/igrejadepedra.webp",
+
     href: "/historia",
   },
+
   {
     title: "Oca da Memória",
+
     description:
       "Conheça o museu comunitário que preserva a memória e a cultura dos povos Tabajara e Kalabaça.",
+
     image: "/indigenas/oca-da-memoria/oca-da-memoria-fachada.webp",
+
     href: "/cultura/povos-indigenas/oca-da-memoria",
   },
+
   {
     title: "Gastronomia Local",
+
     description:
       "Sabores regionais, culinária sertaneja e experiências gastronômicas autênticas.",
+
     image: "/images/comida.webp",
+
     href: "/guia-local",
   },
 ];
@@ -296,31 +373,37 @@ export const experiences: Experience[] = [
 export const navLinks = [
   {
     label: "Descubra",
+
     href: "/",
   },
 
   {
     label: "Atrativos",
+
     href: "/pontos-turisticos",
   },
 
   {
     label: "História",
+
     href: "/historia",
   },
 
   {
     label: "Cultura",
+
     href: "/cultura",
   },
 
   {
     label: "Guia Local",
+
     href: "/guia-local",
   },
 
   {
     label: "Planeje sua Visita",
+
     href: "/planeje-sua-visita",
   },
 ];
